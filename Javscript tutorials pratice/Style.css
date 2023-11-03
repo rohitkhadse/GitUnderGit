@@ -1,0 +1,51 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    max-width: 800px;
+    min-height: 500px;
+    background-color: white;
+    border: 1px solid #b2bec3;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 6rem;
+}
+.left{
+    flex-basis: 50%;
+}
+.right{
+    flex-basis: 50%;
+}
+.right img{
+    width: 100%;
+}
+.right p{
+    text-align: center;
+    margin: auto;
+    max-width: 50rem;
+}
+h3{
+    color: black;
+    margin: 1rem 0;
+}
+form input[type="text"]{
+    width: 49%;
+    padding: 0.5rem 0.7rem;
+    outline: none;
+    border: 1px solid black;
+    margin-bottom: 1.5rem;
+    border-radius: 4px;
+}
